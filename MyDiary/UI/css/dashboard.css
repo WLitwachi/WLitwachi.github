@@ -1,0 +1,138 @@
+body {
+     /*background-color: #FFDAB9;*/
+     background-image: url("diary1.jpg");
+     background-repeat: no-repeat;
+
+
+}
+
+
+.topnav {
+    background-color: #672E3B;
+    overflow: hidden;
+    /*display: inline-block;*/
+    position: relative;
+    left: 0px;
+
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color:  #005960;
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color:  #005960;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #672E3B;
+    color: white;
+    text-align: center;
+}
+
+
+/*second bar*/
+.toppnav {
+    background-color: #005960;
+    overflow: hidden;
+    /*display: inline-block;*/
+    position: relative;
+    left: 0px;
+
+
+}
+
+/* Style the links inside the navigation bar */
+.toppnav a {
+    float: right;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.toppnav a:hover {
+    background-color:  #005960;
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color:  #005960;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.toppnav .icon {
+    display: none;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #005960;
+    color: white;
+    text-align: center;
+}
+
+
+/*collapse*/
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 10 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+
+
